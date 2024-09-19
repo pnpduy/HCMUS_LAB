@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="b5.css" rel="stylesheet" type="text/css" />
+        <script>
+            function ConnectToMySQL() {
+                var ConnectType = "ConnectToMySQL";
+                if (window.XMLHttpRequest) {
+                    xmlhttp = new XMLHttpRequest();
+                } else {
+                    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                xmlhttp.onreadystatechange = function () {
+                    if (this.readyState == 4 && this.status == 200) {
+                        document.getElementById("AccountDiv").innerHTML =
+                            this.responseText;
+                    }
+                };
+                xmlhttp.open("GET", "b5.php?ConnectType=" + ConnectType, true);
+                xmlhttp.send();
+            }
+        </script>
+    </head>
+
+    <body>
+        <form method="post">
+            <input
+                type="button"
+                value="Connect to MySQL"
+                onclick="ConnectToMySQL()"
+            />
+            <br />
+        </form>
+
+        <input id="myInput" type="text" placeholder="Search..." />
+        <br /><br />
+
+        <br />
+        <div id="AccountDiv">
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

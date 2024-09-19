@@ -1,0 +1,2 @@
+Tong chi phi di chuyen = 6
+Duong di ngan nhat cua do thi la:  1  2  3  6

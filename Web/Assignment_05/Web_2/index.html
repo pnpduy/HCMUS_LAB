@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web_02</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <form action="" method="get" name="frmtable">
+        <table>
+            <tr class="bigtr">
+                <th>STT</th>
+                <th>Tên hàng</th>
+                <th>Số lượng</th>
+                <th>Mua</th>
+                <th>Đơn giá</th>
+                <th>Chọn mua</th>
+            </tr>
+            <tr> 
+                <td>1</td>
+                <td>CPU</td>
+                <td>10</td>
+                <td><input name="numBuy1" type="number" value="numBuy1" placeholder="0"/></td>
+                <td>100</td>
+                <td><input name="cbBuy1" type="checkbox" value="cbBuy1" onchange="check1()"/></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>RAM</td>
+                <td>10</td>
+                <td><input name="numBuy2" type="number" value="numBuy2" placeholder="0"/></td>
+                <td>50</td>
+                <td><input name="cbBuy2" type="checkbox" value="cbBuy2" onchange="check2()"/></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>HDD</td>
+                <td>10</td>
+                <td><input name="numBuy3" type="number" value="numBuy3" placeholder="0"/></td>
+                <td>80</td>
+                <td><input name="cbBuy3" type="checkbox" value="cbBuy3" onchange="check3()"/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input name='btnOK' type='button' value='OK' onclick='OK()'/>
+                </td>
+                <td colspan="3" align="right" >Tổng:<input name="sumBuy" type="number" value="sumBuy"/></td>
+                <td><input name="cbVAT" type="checkbox" value="cbVAT" onchange="checkVAT()"/> VAT</td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

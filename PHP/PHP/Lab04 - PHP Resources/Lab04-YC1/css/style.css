@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	background-color: #FEFFED;
+	height: 70px;
+	color: rgb(95, 89, 89);
+	margin: 10px;
+	padding-top: 14px;
+	border-radius: 10px 10px 0 0;
+	font-size: 35px;
+}
+
+.content {
+	position: absolute;
+	top: 50px;
+	left: 5%;
+	width: 450px;
+	height: 400px;
+	border: 2px solid #000;
+	border-radius: 10px;
+}
+
+
+#selectImage {
+	padding: 5px;
+	margin-top: 20px;
+	margin-left: 45px;
+	bottom: 0px;
+	width: 400px;
+	background-color: #FEFFED;
+	border-radius: 10px;
+}
+
+#selectMessage {
+	padding: 5px;
+	margin-left: 45px;
+	bottom: 0px;
+	width: 400px;
+	background-color: #FEFFED;
+	border-radius: 10px;
+}
+
+.submit {
+	font-size: 16px;
+	background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+	border: 1px solid #e5a900;
+	color: #4E4D4B;
+	font-weight: bold;
+	cursor: pointer;
+	width: 300px;
+	border-radius: 5px;
+	padding: 10px 0;
+	outline: none;
+	margin-left: 10%;
+
+}
+
+.submit:hover {
+	background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
+
+#file {
+	color: red;
+	border: 5px solid #8BF1B0;
+	background-color: #8BF1B0;
+	border-radius: 5px;
+	box-shadow: 0 0 15px #626F7E;
+	width: 72%;
+}
+
+#message {
+	position: absolute;
+	top: 120px;
+	left: 815px;
+}
+
+#success {
+	color: green;
+}
+
+#invalid {
+	color: red;
+}
+
+#line {
+	margin-top: 274px;
+}
+
+#error {
+	color: red;
+}
+
+#error_message {
+	color: blue;
+}
+
+#loading {
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: 850px;
+	font-size: 25px;
+}

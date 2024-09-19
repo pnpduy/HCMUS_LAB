@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Employee>
+	<Employee>
+		<EmployeeID>1</EmployeeID>
+		<EmployeeName>Duy</EmployeeName>
+		<Email>duy@gmail.com</Email>
+		<Birthday>9/8/2001 12:00:00 AM</Birthday>
+		<Type>BOD</Type>
+	</Employee>
+	<Employee>
+		<EmployeeID>2</EmployeeID>
+		<EmployeeName>Hoàng</EmployeeName>
+		<Email>hoang@gmail.com</Email>
+		<Birthday>3/2/2001 12:00:00 AM</Birthday>
+		<Type>BOD</Type>
+	</Employee>
+	<Employee>
+		<EmployeeID>3</EmployeeID>
+		<EmployeeName>Hưng</EmployeeName>
+		<Email>hung@gmail.com</Email>
+		<Birthday>1/5/2001 12:00:00 AM</Birthday>
+		<Type>Leader</Type>
+	</Employee>
+	<Employee>
+		<EmployeeID>4</EmployeeID>
+		<EmployeeName>Khanh</EmployeeName>
+		<Email>khanh@gmail.com</Email>
+		<Birthday>9/2/2001 12:00:00 AM</Birthday>
+		<Type>Leader</Type>
+	</Employee>
+	<Employee>
+		<EmployeeID>5</EmployeeID>
+		<EmployeeName>Dung</EmployeeName>
+		<Email>dung@gmail.com</Email>
+		<Birthday>1/1/1989 12:00:00 AM</Birthday>
+		<Type>HR</Type>
+	</Employee>
+	<Employee>
+		<EmployeeID>6</EmployeeID>
+		<EmployeeName>Tung</EmployeeName>
+		<Email>Tung@gmail.com</Email>
+		<Birthday>6/8/1995 12:00:00 AM</Birthday>
+		<Type>HR</Type>
+	</Employee>
+	<Employee>
+		<EmployeeID>7</EmployeeID>
+		<EmployeeName>Quynh</EmployeeName>
+		<Email>quynh@gmail.com</Email>
+		<Birthday>4/9/1992 12:00:00 AM</Birthday>
+		<Type>Staff</Type>
+	</Employee>
+	<Employee>
+		<EmployeeID>8</EmployeeID>
+		<EmployeeName>Trang</EmployeeName>
+		<Email>trang@gmail.com</Email>
+		<Birthday>9/8/1996 12:00:00 AM</Birthday>
+		<Type>Staff</Type>
+	</Employee>
+	<Employee>
+		<EmployeeID>9</EmployeeID>
+		<EmployeeName>Vu</EmployeeName>
+		<Email>vu@gmail.com</Email>
+		<Birthday>1/4/1998 12:00:00 AM</Birthday>
+		<Type>Staff</Type>
+	</Employee>
+	<Employee>
+		<EmployeeID>10</EmployeeID>
+		<EmployeeName>Thinh</EmployeeName>
+		<Email>thinh@gmail.com</Email>
+		<Birthday>8/8/2000 12:00:00 AM</Birthday>
+		<Type>Staff</Type>
+	</Employee>
+	<Employee>
+		<EmployeeID>11</EmployeeID>
+		<EmployeeName>Khang</EmployeeName>
+		<Email>khang@gmail.com</Email>
+		<Birthday>11/3/2005 12:00:00 AM</Birthday>
+		<Type>HR</Type>
+	</Employee>
+</Employee>

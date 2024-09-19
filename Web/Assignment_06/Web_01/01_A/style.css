@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hello {
+    width: 250px;
+    height: 100px;
+    margin: 120px auto;
+}
+
+.text {
+    /* margin: 5px; */
+    padding: 5px;
+    background-color: lightskyblue;
+}
+
+.input_time {
+    height: 50px;
+    padding: 5px;
+    background-color: lightsteelblue;
+}
+
+.button {
+    padding: 5px;
+    background-color: lightskyblue;
+}
+.HelloDiv {
+    padding: 5px;
+}

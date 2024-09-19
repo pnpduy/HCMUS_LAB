@@ -1,0 +1,23 @@
+<resources>
+    //Login
+    <string name="app_name">App Login</string>
+    <string name="app_title_Login">LOGIN</string>
+    <string name="txtUN">Username:</string>
+    <string name="txtPW">Password:</string>
+    <string name="intAps">Attempts: 5</string>
+    <string name="btnLG">LOGIN</string>
+    <string name="btnCNA">Create New Account</string>
+    //Register
+    <string name="app_title_Register">REGISTER</string>
+    <string name="txtEmail">Email</string>
+    <string name="txtUserName">UserName</string>
+    <string name="txtPassWord">PassWord</string>
+    <string name="txtRetypePW">Retype PassWord</string>
+    <string name="btnCreateAcc">Create Account</string>
+    <string name="title_activity_main">Main</string>
+    //Hello Users
+    <string name="txtHello">Hello!</string>
+    <string name="txtText">Have a good day!</string>
+    <string name="btnLoginAgain">Login Again</string>
+    <string name="todo">TODO</string>
+</resources>

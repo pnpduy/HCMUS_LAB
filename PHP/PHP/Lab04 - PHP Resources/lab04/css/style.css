@@ -1,0 +1,91 @@
+:root {
+	--color-1: #32D9BA;
+	--color-2: #2EA690;
+	--color-3: #BABFBE;
+	--color-4: #736663;
+	--color-5: #0D0D0D;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--color-3);
+}
+
+#content {
+	width: 50%;
+	margin: 20px auto;
+	border: 5px solid var(--color-2);
+	background-color: var(--color-4);
+	border-radius: 10px;
+}
+
+form {
+	width: 50%;
+	margin: 20px auto;
+}
+
+form div {
+	margin-top: 5px;
+}
+
+#img_div {
+	width: 80%;
+	padding: 5px;
+	margin: 15px auto;
+	background-color: var(--color-3);
+	border: 1px solid var(--color-2);
+	border-radius: 10%;
+}
+
+#img_div:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+img {
+	float: left;
+	margin: 5px;
+	width: 300px;
+	height: 140px;
+}
+
+.submit {
+	font-size: 16px;
+	background: linear-gradient (var(--color-2) 5%, var(--color-1) 100%);
+	border: 1px solid var(--color-2);
+	color: var(--color-5);
+	font-weight: bold;
+	cursor: pointer;
+	width: 300px;
+	border-radius: 5px;
+	padding: 10px 0;
+	outline: none;
+	margin-top: 10px;
+}
+
+.submit:hover {
+	background: linear-gradient (var(--color-1) 5%, var(--color-2) 100%);
+}
+
+#file {
+	color: red;
+	padding: 5px;
+	border: 5px solid var(--color-2);
+	background-color: var(--color-1);
+	margin-top: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 15px #626f7e;
+	width: 300px;
+}
+
+label {
+	font-size: 20px;
+	color: var(--color-5);
+}

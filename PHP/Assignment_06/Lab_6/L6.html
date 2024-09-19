@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <script>
+        function ConnectToMySQL() {
+            var obj,
+                dbParam,
+                xmlhttp,
+                mySQL,
+                x,
+                txt = "";
+            obj = { table: "account", FirstName: "%J%", Email: "%com%" };
+            dbParam = JSON.stringify(obj);
+            if (window.XMLHttpRequest) {
+                xmlhttp = new XMLHttpRequest();
+            } else {
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && xmlhttp.readyState == 200) {
+                    mySQL = JSON.parse(this.responseText);
+                    for (x in mySQL) {
+                        txt += mySQL[x].ID + "-" + mySQL[x].FirstName;
+                        txt +=
+                            "-" +
+                            mySQL[x].LastName +
+                            "-" +
+                            mySQL[x].Email +
+                            "<br>";
+                    }
+                    document.getElementById("demo").innerHTML = txt;
+                }
+            };
+            xmlhttp.open("GET", "index.php?search" + dbParam, true);
+            xmlhttp.send();
+        }
+    </script>
+    <body>
+        <h2>Get data as JSON from a PHP file on the server</h2>
+        <input
+            type="button"
+            value="Get JSON from Server"
+            onclick="ConnectToMySQL()"
+        />
+        <p id="demo"></p>
+    </body>
+</html>

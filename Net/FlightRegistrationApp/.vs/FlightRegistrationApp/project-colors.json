@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fc155d58-2d5b-484e-a682-083627536c9a": {
+      "ProjectGuid": "fc155d58-2d5b-484e-a682-083627536c9a",
+      "DisplayName": "FlightRegistrationApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

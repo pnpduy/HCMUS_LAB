@@ -1,0 +1,10 @@
+E:\Net\Assignment_06\LaptopLINQ\bin\Debug\LaptopLINQ.exe.config
+E:\Net\Assignment_06\LaptopLINQ\bin\Debug\LaptopLINQ.exe
+E:\Net\Assignment_06\LaptopLINQ\bin\Debug\LaptopLINQ.pdb
+E:\Net\Assignment_06\LaptopLINQ\obj\Debug\LaptopLINQ.csproj.AssemblyReference.cache
+E:\Net\Assignment_06\LaptopLINQ\obj\Debug\LaptopLINQ.csproj.SuggestedBindingRedirects.cache
+E:\Net\Assignment_06\LaptopLINQ\obj\Debug\LaptopLINQ.Properties.Resources.resources
+E:\Net\Assignment_06\LaptopLINQ\obj\Debug\LaptopLINQ.csproj.GenerateResource.cache
+E:\Net\Assignment_06\LaptopLINQ\obj\Debug\LaptopLINQ.csproj.CoreCompileInputs.cache
+E:\Net\Assignment_06\LaptopLINQ\obj\Debug\LaptopLINQ.exe
+E:\Net\Assignment_06\LaptopLINQ\obj\Debug\LaptopLINQ.pdb

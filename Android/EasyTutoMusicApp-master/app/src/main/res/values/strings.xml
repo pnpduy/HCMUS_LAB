@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EasyTutoMusicApp</string>
+    <string name="title">SONGS LIST</string>
+    <string name="title_2">NO SONGS FOUND</string>
+    <string name="title_song">Title of the song</string>
+    <string name="time">0:00</string>
+
+</resources>

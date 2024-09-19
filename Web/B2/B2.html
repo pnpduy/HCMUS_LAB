@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="B2.js"></script>
+        <link rel="stylesheet" href="B2.CSS">
+
+    </head>
+    <body>
+        <form action="" method="get" name="frmtable">
+            <table>
+                <tr class="bigtr">
+                    <td>STT</td>
+                    <td>Tên hàng</td>
+                    <td>Số lượng</td>
+                    <td>Mua</td>
+                    <td>Đơn giá</td>
+                    <td>Chọn mua</td>
+                </tr>
+                <tr> 
+                    <td>1</td>
+                    <td>CPU</td>
+                    <td>10</td>
+                    <td><input name="numBuy1" type="number" value="numBuy1"/></td>
+                    <td>100</td>
+                    <td><input name="cbBuy1" type="checkbox" value="cbBuy1" onchange="check1()"/></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>RAM</td>
+                    <td>10</td>
+                    <td><input name="numBuy2" type="number" value="numBuy2"/></td>
+                    <td>50</td>
+                    <td><input name="cbBuy2" type="checkbox" value="cbBuy2" onchange="check2()"/></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>HDD</td>
+                    <td>10</td>
+                    <td><input name="numBuy3" type="number" value="numBuy3"/></td>
+                    <td>80</td>
+                    <td><input name="cbBuy3" type="checkbox" value="cbBuy3" onchange="check3()"/></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input name='btnOK' type='button' value='OK' onclick='OK()'/>
+                    </td>
+                    <td colspan="3" align="right" >Tổng:<input name="sumBuy" type="number" value="sumBuy"/></td>
+                    <td><input name="cbVAT" type="checkbox" value="cbVAT" onchange="checkVAT()"/> VAT</td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

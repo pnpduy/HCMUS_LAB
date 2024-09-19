@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lab_05</string>
+    <string name="add">add</string>
+    <string name="add_new_food">ADD NEW FOOD</string>
+    <string name="food">Food</string>
+    <string name="name">Name</string>
+    <string name="price">Price</string>
+    <string name="btn_add">ADD</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="edit_food">EDIT FOOD</string>
+    <string name="btn_edit">SAVE</string>
+    <string name="text_delete">Text Delete</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+</resources>

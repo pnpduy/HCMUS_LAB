@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 500px;
+}
+
+.header,
+.footer {
+  padding: 10px 30px;
+  background-color: aqua;
+  text-align: center;
+}
+
+.header-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: blue;
+  text-transform: uppercase;
+}
+
+.main {
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.timer-input {
+  margin-left: 20px;
+}
+
+#message {
+  display: block;
+}
+
+
+#hello{
+    padding: 10px 15px;
+}

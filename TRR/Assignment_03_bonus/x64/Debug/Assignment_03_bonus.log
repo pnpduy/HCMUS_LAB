@@ -1,0 +1,3 @@
+﻿  19110290_main_bonus.cpp
+E:\TRR\Assignment_03_bonus\19110290_main_bonus.cpp(103,5): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Assignment_03_bonus.vcxproj -> E:\TRR\Assignment_03_bonus\x64\Debug\Assignment_03_bonus.exe

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imgFood"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:contentDescription="TODO"
+        android:scaleType="fitXY"
+        android:src="@drawable/chicken" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/food"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/food"
+            android:textColor="#FF5722"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textColor="#78909C"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            android:textColor="#43A047"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Space
+                android:layout_width="95dp"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:id="@+id/imgBtnEdit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#C34A4A"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                />
+
+            <ImageButton
+                android:id="@+id/imgBtnDelete"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#C34A4A"
+                app:srcCompat="@android:drawable/ic_input_delete" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "557524963453",
+    "project_id": "loginregister-a1a3f",
+    "storage_bucket": "loginregister-a1a3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557524963453:android:acdba4b37d95e3eca7e114",
+        "android_client_info": {
+          "package_name": "com.duy.lab_01_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557524963453-k01j4d93l2uab0f02392se8tn86jq9ld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsaCJjGlPC8DyptWNwoK0yJbCraPZXarA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557524963453-k01j4d93l2uab0f02392se8tn86jq9ld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

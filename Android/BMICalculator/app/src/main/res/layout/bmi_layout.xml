@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="@string/title"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtHeight"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/txtTitle"
+        android:text="@string/height"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/editHeight"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtHeight"
+        android:autofillHints=""
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,TextFields" />
+
+    <TextView
+        android:id="@+id/txtCM"
+        android:layout_toEndOf="@id/editHeight"
+        android:layout_alignBottom="@id/editHeight"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:textSize="25sp"
+        android:text="@string/cm"/>
+
+    <TextView
+        android:id="@+id/txtWeight"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/editHeight"
+        android:text="@string/weight"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editWeight"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/txtWeight"
+        android:autofillHints=""
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,TextFields" />
+
+    <TextView
+        android:id="@+id/txtKG"
+        android:layout_toEndOf="@id/editWeight"
+        android:layout_alignBottom="@id/editWeight"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:textSize="25sp"
+        android:text="@string/kg"/>
+
+    <Button
+        android:id="@+id/btnResult"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editWeight"
+        android:layout_marginTop="20dp"
+        android:text="@string/BMI"
+        />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/btnResult"
+
+        android:paddingTop="20dp"
+        android:text="@string/result"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtOutput"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/txtResult"
+        android:textSize="25sp" />
+</RelativeLayout>

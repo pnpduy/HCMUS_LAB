@@ -1,0 +1,15 @@
+E:\Net\Assingment_05\bin\Debug\Assingment_05.exe.config
+E:\Net\Assingment_05\bin\Debug\Assingment_05.exe
+E:\Net\Assingment_05\bin\Debug\Assingment_05.pdb
+E:\Net\Assingment_05\obj\Debug\Assingment_05.csproj.AssemblyReference.cache
+E:\Net\Assingment_05\obj\Debug\Assingment_05.csproj.SuggestedBindingRedirects.cache
+E:\Net\Assingment_05\obj\Debug\Interop.Microsoft.Office.Core.dll
+E:\Net\Assingment_05\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+E:\Net\Assingment_05\obj\Debug\Interop.VBIDE.dll
+E:\Net\Assingment_05\obj\Debug\Assingment_05.csproj.ResolveComReference.cache
+E:\Net\Assingment_05\obj\Debug\Assingment_05.LaptopManagementForm.resources
+E:\Net\Assingment_05\obj\Debug\Assingment_05.Properties.Resources.resources
+E:\Net\Assingment_05\obj\Debug\Assingment_05.csproj.GenerateResource.cache
+E:\Net\Assingment_05\obj\Debug\Assingment_05.csproj.CoreCompileInputs.cache
+E:\Net\Assingment_05\obj\Debug\Assingment_05.exe
+E:\Net\Assingment_05\obj\Debug\Assingment_05.pdb
